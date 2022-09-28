@@ -354,6 +354,17 @@ main {
   border-radius: 8px;
 }
 
+.info-content .cv {
+  color: var(--white-1);
+  background: #dbac19;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin-left: 25%;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
