@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homrani Mahdi Personal Portfolio</title>
+  <title>Mahdi Homrani – Ingénieur Full Stack Java / Angular</title>
+  <meta name="description"
+    content="Portfolio de Mahdi Homrani, Ingénieur Full Stack Java / Angular avec 5 ans d'expérience : Java, Spring Boot, Angular, SQL, Docker, Kubernetes.">
 
   <!--
     - favicon
@@ -43,17 +45,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/HomraniMahdi.png" alt="Homrani Mahdi" width="80">
+          <img src="./assets/images/HomraniMahdi.png" alt="Mahdi Homrani" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Homrani Mahdi">HOMRANI MAHDI</h1>
-          <p class="title">👨‍💻 Full-Stack Developer | DevOps Engineer ⚡️</p>
-          <p class="title">Cloud Solutions Designer</p>
+          <h1 class="name" title="Mahdi Homrani">Mahdi Homrani</h1>
+          <p class="title">Ingénieur Full Stack Java / Angular</p>
+          <p class="title">5 ans d'expérience</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>Voir les contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -83,16 +85,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title">WhatsApp</p>
 
-                <a href="https://wa.me/21658932889" class="contact-link">
-                  +216 58 932 889
-                </a>
-
+              <a href="https://wa.me/21658932889" target="_blank" rel="noopener" class="contact-link">Contact WhatsApp</a>
             </div>
 
           </li>
@@ -100,13 +99,14 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title">LinkedIn</p>
 
-              <time datetime="1998-02-03">Fev 02, 1998</time>
+              <a href="https://www.linkedin.com/in/mahdi-homrani/" target="_blank" rel="noopener"
+                class="contact-link">linkedin.com/in/mahdi-homrani</a>
             </div>
 
           </li>
@@ -118,21 +118,19 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title">Localisation</p>
 
-              <address>Denden-Manouba, Tunisia</address>
+              <address>Paris, Île-de-France, France</address>
             </div>
 
           </li>
+
           <li>
-            <div class="info-content" >
-            <a href="CV_Homrani_Mahdi_2026.pdf" target="_blank" class="cv">
-              Download CV
-            </a>
-
-
-          </div>
-      
+            <div class="info-content">
+              <a href="CV_Homrani_Mahdi.pdf" target="_blank" class="cv">
+                Télécharger le CV
+              </a>
+            </div>
           </li>
 
         </ul>
@@ -142,28 +140,32 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.facebook.com/homrani.mahdi/" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mahdi-homrani/" class="social-link">
+            <a href="https://www.linkedin.com/in/mahdi-homrani/" target="_blank" rel="noopener" class="social-link"
+              aria-label="LinkedIn">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/homrani_mahdii/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://github.com/HomraniMahdi" target="_blank" rel="noopener" class="social-link"
+              aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://github.com/HomraniMahdi" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
+            <a href="https://wa.me/21658932889" target="_blank" rel="noopener" class="social-link"
+              aria-label="WhatsApp">
+              <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
+
+          <li class="social-item">
+            <a href="mailto:Mahdi.Homrani@outlook.com" class="social-link" aria-label="Email">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
         </ul>
 
       </div>
@@ -189,20 +191,19 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link data-nav-target="about">À propos</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link data-nav-target="resume">Parcours</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link data-nav-target="portfolio">Projets</button>
           </li>
 
-
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link data-nav-target="contact">Contact</button>
           </li>
 
         </ul>
@@ -219,24 +220,23 @@
 
       <article class="about  active" data-page="about">
 
-       <header>
-          <h2 class="h2 article-title">About me</h2>
+        <header>
+          <h2 class="h2 article-title">À propos</h2>
         </header>
 
         <section class="about-text">
           <p>
-            Full Stack Engineer | Cloud Solutions
-
-            As a Full Stack Engineer with expertise in cloud solutions and monitoring, I excel in developing innovative applications that enhance user experience 
-            nd streamline operations. My skills include Docker, Kubernetes, and crafting dynamic front-end applications with Angular, 
-            alongside back-end services using the Spring framework and RESTful APIs secured with Spring Security and Keycloak.
-                       
+            Ingénieur Full Stack Java / Angular avec 5 ans d'expérience dans la conception, le développement et la
+            maintenance d'applications web métier. Je conçois et développe des fonctionnalités métier avec
+            <strong>Java 17/21</strong>, <strong>Spring Boot 3</strong>, Spring Data et Hibernate/JPA, ainsi que des
+            API REST sécurisées avec Spring Security.
           </p>
-          I also utilize advanced monitoring tools like Prometheus and Grafana for system reliability and performance, and leverage Kafka for real-time data streaming. 
-          Passionate about technology, I continuously adapt to new challenges and am eager to connect with professionals to contribute to innovative 
-          projects in cloud solutions and full stack development.
-          <p>
 
+          <p>
+            Côté front-end, je développe des interfaces web avec <strong>Angular</strong>, TypeScript et RxJS.
+            J'optimise les accès aux données avec <strong>SQL</strong> et PostgreSQL, je réalise les tests unitaires
+            (JUnit, Mockito) et je participe à l'industrialisation des applications avec GitLab CI/CD, Docker et
+            Kubernetes, au sein d'équipes Agile Scrum en collaboration étroite avec les équipes métier et techniques.
           </p>
         </section>
 
@@ -247,22 +247,22 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">Ce que je fais</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="Icône développement back-end" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Développement back-end</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  Fonctionnalités métier et API REST sécurisées avec Java 17/21, Spring Boot 3, Spring Security et
+                  Hibernate/JPA.
                 </p>
               </div>
 
@@ -271,14 +271,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="Icône développement front-end" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Développement front-end</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Composants Angular réutilisables avec TypeScript et RxJS, intégration et consommation d'API REST.
                 </p>
               </div>
 
@@ -287,14 +287,15 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icons-Desktop.png" alt="Desktop app icon" width="40">
+                <img src="./assets/images/icons-Desktop.png" alt="Icône automatisation" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">desktop apps</h4>
+                <h4 class="h4 service-item-title">Workflows &amp; données</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for Desktop.
+                  Automatisation des processus métier avec Camunda BPMN, optimisation SQL/PostgreSQL et messaging
+                  Kafka.
                 </p>
               </div>
 
@@ -303,14 +304,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icons-devops.png" alt="devops icon" width="40">
+                <img src="./assets/images/icons-devops.png" alt="Icône DevOps" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Devops</h4>
+                <h4 class="h4 service-item-title">DevOps &amp; monitoring</h4>
 
                 <p class="service-item-text">
-                  deploy and operate applications.
+                  CI/CD avec GitLab et Jenkins, Docker, Kubernetes, supervision avec Prometheus et Grafana.
                 </p>
               </div>
 
@@ -322,144 +323,99 @@
 
 
         <!--
-          - testimonials
+          - tech stack
         -->
 
-        <section class="testimonials">
+        <section class="tech-stack">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 tech-stack-title">Stack technique</h3>
 
-          <ul class="testimonials-list has-scrollbar">
+          <ul class="tech-stack-list">
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Firas</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Mahdi was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client.
-                  </p>
-                </div>
-
-              </div>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Langages</h4>
+              <ul class="tech-tags">
+                <li>Java 11 / 17 / 21</li>
+                <li>SQL</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+              </ul>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nawres </h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Mahdi was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client.
-                  </p>
-                </div>
-
-              </div>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Back-end</h4>
+              <ul class="tech-tags">
+                <li>Spring Boot 3</li>
+                <li>Spring Data</li>
+                <li>Spring Cloud</li>
+                <li>Spring Security</li>
+                <li>Spring Batch</li>
+                <li>Hibernate / JPA</li>
+                <li>API REST</li>
+              </ul>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Abir</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Mahdi was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client.
-                  </p>
-                </div>
-
-              </div>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Front-end</h4>
+              <ul class="tech-tags">
+                <li>Angular 14 / 15 / 17</li>
+                <li>RxJS</li>
+                <li>NgRx</li>
+                <li>HTML / CSS / SCSS</li>
+                <li>Bootstrap</li>
+              </ul>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Bases de données</h4>
+              <ul class="tech-tags">
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>Oracle</li>
+                <li>SQL Server</li>
+                <li>Elasticsearch</li>
+              </ul>
+            </li>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">CI/CD &amp; Cloud</h4>
+              <ul class="tech-tags">
+                <li>GitLab CI/CD</li>
+                <li>Jenkins</li>
+                <li>Maven</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Nexus</li>
+              </ul>
+            </li>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aziz</h4>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Messaging, workflow &amp; monitoring</h4>
+              <ul class="tech-tags">
+                <li>Apache Kafka</li>
+                <li>Camunda BPMN</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>Alertmanager</li>
+                <li>Spring Boot Actuator</li>
+              </ul>
+            </li>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Mahdi was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client.
-                  </p>
-                </div>
-
-              </div>
+            <li class="tech-stack-group">
+              <h4 class="h4 tech-stack-label">Qualité &amp; méthodes</h4>
+              <ul class="tech-tags">
+                <li>JUnit</li>
+                <li>Mockito</li>
+                <li>SonarQube</li>
+                <li>Agile Scrum</li>
+                <li>Jira / Confluence</li>
+                <li>Git</li>
+              </ul>
             </li>
 
           </ul>
 
         </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-      
 
       </article>
 
@@ -474,53 +430,93 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">Parcours</h2>
         </header>
 
         <section class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Expérience professionnelle</h3>
           </div>
 
           <ol class="timeline-list">
 
+            <!-- ================= ORANGE ================= -->
+
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Software engineering cycle</h4>
+              <h4 class="h4 timeline-item-title">Développeur Full Stack Java / Angular</h4>
 
-              <span>Private School of Engineering and Technologies "ESPRIT" | 2020-2023</span>
+              <span>ORANGE | Paris, Île-de-France | Septembre 2023 – Aujourd'hui</span>
 
               <p class="timeline-text">
- 
+                <strong>Projet : OTB – Application web.</strong> Développement et évolution d'une plateforme web
+                stratégique dédiée à l'automatisation du traitement des commandes et de la facturation, basée sur une
+                architecture microservices (back-end Java/Spring Boot, front-end Angular). Équipe de 10 personnes :
+                Product Owner, Scrum Master, Tech Lead, développeurs Full Stack et QA.
+              </p>
+
+              <p class="timeline-text">
+                • Conception et développement de nouvelles fonctionnalités métier avec Java 17 et Spring Boot 3.<br>
+                • Conception, développement et sécurisation des API REST avec Spring Security ; définition des
+                contrats d'API.<br>
+                • Développement des fonctionnalités front-end et de composants réutilisables avec Angular 14 et
+                TypeScript.<br>
+                • Gestion de la persistance avec Hibernate/JPA et PostgreSQL ; écriture et optimisation des requêtes
+                SQL.<br>
+                • Optimisation des performances avec pagination et Server-Sent Events (SSE).<br>
+                • Automatisation des processus métier avec Camunda BPMN et développement des workers Java associés.<br>
+                • Tests unitaires JUnit/Mockito, revue de code, SonarQube, bonnes pratiques Clean Code et SOLID.<br>
+                • Mise en place des pipelines GitLab CI/CD, conteneurisation Docker et déploiement sur Kubernetes.<br>
+                • Business Refinements, affinage du backlog, Planning Poker et cérémonies Scrum.
+              </p>
+
+              <p class="timeline-text">
+                <strong>Environnement :</strong> Java 17/21, Spring Boot 3, Spring Security, Angular 14/17,
+                TypeScript, RxJS, Camunda BPMN, API REST, SSE, PostgreSQL, SQL, Hibernate/JPA, Maven, Docker,
+                Kubernetes, GitLab CI/CD, SonarQube, JUnit, Mockito, Git, Jira, Confluence
               </p>
 
             </li>
 
+            <!-- ================= ACTIA ================= -->
+
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Bachelor's degree</h4>
+              <h4 class="h4 timeline-item-title">Développeur Full Stack Java / Angular</h4>
 
-              <span>ISET Rades | 2017-2020</span>
+              <span>ACTIA Engineering Services | Tunis, Tunisie | Juin 2021 – Août 2023</span>
 
               <p class="timeline-text">
-
+                <strong>Projet : Diag Cloud – Application web.</strong> Développement d'une plateforme Cloud de
+                supervision dédiée aux applications de diagnostic automobile : supervision des microservices,
+                centralisation des métriques et détection des incidents en temps réel. Équipe de 8 personnes :
+                Product Owner, Scrum Master, Tech Lead, développeurs Cloud/Back-End et DevOps Engineer.
               </p>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Bachelor of Technical Science</h4>
-
-              <span>Ibn Abi Dhiaf Manouba | 2017</span>
+              <p class="timeline-text">
+                • Conception et développement d'API REST avec Java et Spring Boot dans une architecture
+                microservices.<br>
+                • Sécurisation des API avec Spring Security et Keycloak ; communication inter-services avec
+                OpenFeign.<br>
+                • Persistance avec Hibernate/JPA et PostgreSQL ; endpoints de supervision avec Spring Boot
+                Actuator.<br>
+                • Interfaces utilisateur, écrans de supervision et tableaux de bord temps réel avec Angular 15,
+                TypeScript et RxJS.<br>
+                • Communication événementielle avec Apache Kafka (producteurs et consommateurs).<br>
+                • Conteneurisation Docker, déploiement sur Kubernetes et pipelines CI/CD avec Jenkins.<br>
+                • Supervision des applications avec Prometheus, Grafana et Alertmanager.<br>
+                • Cérémonies Scrum, affinage des User Stories et estimation en Planning Poker.
+              </p>
 
               <p class="timeline-text">
-
+                <strong>Environnement :</strong> Java 11, Spring Boot 2/3, Spring Security, Keycloak, OpenFeign,
+                Spring Boot Actuator, Angular 15, TypeScript, RxJS, API REST, Apache Kafka, PostgreSQL, SQL,
+                Hibernate/JPA, Docker, Kubernetes, Jenkins, Prometheus, Grafana, Alertmanager, Git, Jira
               </p>
 
             </li>
@@ -536,192 +532,59 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">Formation</h3>
           </div>
-<ol class="timeline-list">
 
-  <!-- ================= SOFRECOM ================= -->
+          <ol class="timeline-list">
 
-  <li class="timeline-item">
+            <li class="timeline-item">
 
-    <h4 class="h4 timeline-item-title">
-      Full-Stack Software Engineer (Spring Boot | Angular)
-    </h4>
+              <h4 class="h4 timeline-item-title">Diplôme d'ingénieur en informatique</h4>
 
-    <span>Sofrecom Tunisie | Sep 2023 – Present</span>
+              <span>ESPRIT – École Supérieure Privée d'Ingénierie et de Technologies | 2020 – 2023</span>
 
-    <p class="timeline-text">
-      Development of an enterprise-grade platform automating the order-to-billing lifecycle 
-      for operational teams. Designed and implemented scalable full-stack architecture 
-      using Angular and Spring Boot (MVC).
-    </p>
+            </li>
 
-    <p class="timeline-text">
-      • Designed secure REST APIs with Spring Security and role-based access control.<br>
-      • Optimized performance using advanced pagination and Server-Sent Events (SSE) for real-time updates.<br>
-      • Orchestrated business workflows with Camunda BPMN to automate complex processes.<br>
-      • Implemented CI/CD pipelines (GitLab), Dockerized deployments, and automated tests (JUnit, Mockito).<br>
-      • Integrated monitoring with Prometheus & Grafana for proactive anomaly detection.
-    </p>
-
-    <p class="timeline-text">
-      <strong>Environment:</strong> Java 17, Spring Boot, Angular, PostgreSQL, Camunda BPMN, 
-      Docker, GitLab CI/CD, SSE, Maven, JUnit, SonarQube, Prometheus, Grafana
-    </p>
-
-  </li>
-
-  <!-- ================= ACTIA ================= -->
-
-<li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    Cloud DevOps Engineer
-  </h4>
-
-  <span>ACTIA Engineering Services | Feb 2023 – Aug 2023</span>
-
-  <p class="timeline-text">
-    Designed and implemented <strong>DiagCloud</strong>, a cloud-native monitoring 
-    platform supervising distributed automotive microservices and ensuring high availability 
-    and real-time anomaly detection.
-  </p>
-
-  <p class="timeline-text">
-    • Designed RESTful microservices using Spring Boot and FeignClient for centralized supervision.<br>
-    • Containerized and orchestrated services with Docker & Kubernetes (cluster-based deployment).<br>
-    • Built observability stack using Prometheus & Grafana (30+ real-time metrics dashboards).<br>
-    • Implemented CI pipelines with Jenkins to automate build, test, and deployment workflows.<br>
-    • Integrated Kafka & Zookeeper for event-driven communication between microservices.<br>
-    • Configured Alertmanager for proactive alerting and faster incident response.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Impact:</strong> Improved system reliability, reduced manual monitoring efforts, 
-    and enabled faster detection of production incidents.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Environment:</strong> Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Jenkins, 
-    Kafka, Zookeeper, Prometheus, Grafana, Alertmanager, Linux
-  </p>
-
-</li>
-
-<!-- ================= WEMIAM ================= -->
-
-<li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    Frontend Developer Intern (Angular)
-  </h4>
-
-  <span>WeMiam | Jun 2022 – Aug 2022 (Remote)</span>
-
-  <p class="timeline-text">
-    Contributed to the development of a web-based 2D space modeling platform 
-    enabling users to design and customize multi-level workspaces interactively.
-  </p>
-
-  <p class="timeline-text">
-    • Engineered dynamic drag-and-drop functionality using Angular and Fabric.js (SVG rendering engine).<br>
-    • Designed a JSON-based persistence model to store layouts in PostgreSQL.<br>
-    • Implemented multi-floor architecture with contextual interactions and real-time UI updates.<br>
-    • Integrated REST APIs for configuration storage, retrieval, and version management.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Impact:</strong> Improved usability and flexibility of space planning 
-    through an intuitive and interactive UI experience.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Environment:</strong> Angular, TypeScript, Fabric.js, PostgreSQL, REST APIs, JSON, Git
-  </p>
-
-</li>
-
-<!-- ================= AH&CO ================= -->
-
-<li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    Full-Stack Developer Intern (Spring Boot | Angular)
-  </h4>
-
-  <span>AH&CO | Jul 2021 – Aug 2021</span>
-
-  <p class="timeline-text">
-    Participated in the development of an e-commerce platform focused on 
-    order management, parcel tracking, and invoice generation.
-  </p>
-
-  <p class="timeline-text">
-    • Developed responsive Angular interfaces to enhance user experience.<br>
-    • Designed and implemented RESTful APIs using Spring Boot.<br>
-    • Implemented delivery tracking workflows and order lifecycle management.<br>
-    • Contributed to database modeling and integration with MySQL.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Impact:</strong> Enhanced operational efficiency by digitizing 
-    order processing and shipment tracking.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Environment:</strong> Angular, Spring Boot, REST APIs, MySQL, Git
-  </p>
-
-</li>
-
-<!-- ================= BFI ================= -->
-
-<li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    Full-Stack Developer Intern (Spring | Angular)
-  </h4>
-
-  <span>BFI Groupe | Jun 2021 – Jul 2021</span>
-
-  <p class="timeline-text">
-    Contributed to the design and development of scalable web applications 
-    with emphasis on maintainable architecture and clean code practices.
-  </p>
-
-  <p class="timeline-text">
-    • Translated business requirements into functional and technical specifications.<br>
-    • Developed Angular front-end components with reusable architecture.<br>
-    • Built backend services using Spring Framework and integrated with MySQL.<br>
-    • Applied best practices in code structure and application layering.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Impact:</strong> Delivered structured and maintainable modules 
-    aligned with business requirements.
-  </p>
-
-  <p class="timeline-text">
-    <strong>Environment:</strong> Spring Framework, Angular, REST APIs, MySQL, Git
-  </p>
-
-</li>
-
-</ol>
-
+          </ol>
 
         </section>
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">Compétences</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web developer</h5>
+                <h5 class="h5">Java / Spring Boot</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Angular / TypeScript / RxJS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL / PostgreSQL / Hibernate-JPA</h5>
                 <data value="80">80%</data>
               </div>
 
@@ -734,12 +597,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Desktop application</h5>
-                <data value="70">80%</data>
+                <h5 class="h5">DevOps (Docker, Kubernetes, CI/CD)</h5>
+                <data value="75">75%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
 
             </li>
@@ -747,29 +610,34 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic Design</h5>
-                <data value="60">60%</data>
+                <h5 class="h5">Kafka / Camunda BPMN / Monitoring</h5>
+                <data value="75">75%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
+                <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
 
             </li>
 
-            <li class="skills-item">
+          </ul>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Devops</h5>
-                <data value="70">70%</data>
-              </div>
+        </section>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
+        <section class="skill">
 
-            </li>
+          <h3 class="h3 skills-title">Compétences fonctionnelles &amp; langues</h3>
 
+          <ul class="tech-tags content-card tech-tags-card">
+            <li>Gestion des commandes et facturation</li>
+            <li>Automatisation des processus métier</li>
+            <li>Analyse fonctionnelle et technique</li>
+            <li>Affinage et estimation du backlog</li>
+            <li>Intégration de systèmes d'information</li>
+            <li>Supervision et monitoring Cloud</li>
+            <li>Diagnostic automobile</li>
+            <li>Agile Scrum</li>
+            <li>Anglais : courant</li>
           </ul>
 
         </section>
@@ -787,7 +655,7 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projets</h2>
         </header>
 
         <section class="projects">
@@ -795,15 +663,19 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn data-filter="all">Tous</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn data-filter="professionnel">Professionnels</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn data-filter="web development">Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-filter="applications">Applications</button>
             </li>
 
           </ul>
@@ -812,7 +684,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value>Choisir une catégorie</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -823,15 +695,19 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item data-filter="all">Tous</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item data-filter="professionnel">Professionnels</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item data-filter="web development">Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-filter="applications">Applications</button>
               </li>
 
             </ul>
@@ -839,6 +715,55 @@
           </div>
 
           <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="professionnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/OTB.jpg" alt="OTB – plateforme de commandes et facturation Orange"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OTB – Orange</h3>
+
+                <p class="project-category">Projet professionnel</p>
+
+                <p class="project-description">
+                  Plateforme web stratégique d'automatisation du traitement des commandes et de la facturation :
+                  microservices Spring Boot 3, front-end Angular, API REST sécurisées, workflows Camunda BPMN, SSE,
+                  PostgreSQL, Docker, Kubernetes et GitLab CI/CD.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professionnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DiagCloud.jpg"
+                    alt="Diag Cloud – plateforme de supervision du diagnostic automobile" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Diag Cloud – ACTIA</h3>
+
+                <p class="project-category">Projet professionnel</p>
+
+                <p class="project-description">
+                  Plateforme Cloud de supervision des applications de diagnostic automobile : microservices Spring
+                  Boot, Keycloak, OpenFeign, Kafka, tableaux de bord Angular temps réel, Prometheus, Grafana et
+                  Alertmanager sur Kubernetes.
+                </p>
+              </a>
+            </li>
 
             <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
@@ -848,54 +773,19 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/otb-project.png" alt="Order To Billing Platform" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">OTB – Order To Billing Platform</h3>
-
-                <p class="project-category">Enterprise Web Application</p>
-
-                <p class="project-description">
-                  Design and development of an enterprise web platform automating the order-to-billing lifecycle with workflow orchestration and secure REST APIs.
-                </p>
-
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-                <video controls loading="lazy" width="100%">
-                  <source src="./assets/video/Démo.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video>
-                <h3 class="project-title">DiagCloud</h3>
-
-                <p class="project-category">Web development</p>
-
-                <p class="project-description">Monitoring an application to detect any issues for timely intervention.</p>
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.png" alt="Wemiam HappyTime" loading="lazy">
+                  <img src="./assets/images/project-1.png" alt="OS Planner" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">OS Planner</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Design and production of a web application that aims entrepreneurs to limit their costs.</p>
+                <p class="project-description">Conception et réalisation d'une application web permettant aux
+                  entrepreneurs de maîtriser leurs coûts.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -903,19 +793,20 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="Application Web Well Being @Work" loading="lazy">
+                  <img src="./assets/images/project-2.png" alt="Application web Well Being @Work" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Application Web "Well Being @Work"</h3>
+                <h3 class="project-title">Application web « Well Being @Work »</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Development of a web application allowing within a company which makes it possible to ensure the well-being of the employees in company to achieve objectives.</p>
+                <p class="project-description">Application web d'entreprise visant à assurer le bien-être des
+                  collaborateurs afin d'atteindre les objectifs de l'entreprise.</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -923,19 +814,20 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.png" alt="Application Web Well Being @Work "loading="lazy">
+                  <img src="./assets/images/project-3.png" alt="Application web Well Being @Work" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Application Web "Well Being @Work"</h3>
+                <h3 class="project-title">Application web « Well Being @Work »</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Development of a web application allowing within a company which makes it possible to ensure the well-being of the employees in company to achieve objectives.</p>
+                <p class="project-description">Application web d'entreprise visant à assurer le bien-être des
+                  collaborateurs afin d'atteindre les objectifs de l'entreprise.</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -950,12 +842,13 @@
 
                 <p class="project-category">Applications</p>
 
-                <p class="project-description">Design and production of a web and desktop carpooling application that facilitates travel by allowing travelers to offer their services.</p>
+                <p class="project-description">Application web et desktop de covoiturage permettant aux voyageurs
+                  de proposer leurs trajets.</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -963,18 +856,19 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="Smart Farm" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Smart Farm</h3>
 
                 <p class="project-category">Applications</p>
 
-                <p class="project-description">Design and production application with language C that make life easy for the farmer.</p>
+                <p class="project-description">Application développée en langage C pour faciliter le quotidien des
+                  agriculteurs.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -987,13 +881,13 @@
 
                 <h3 class="project-title">User Management</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Design and production that Manage Users.</p>
+                <p class="project-description">Application web de gestion des utilisateurs.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -1001,18 +895,19 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="Trip Manage" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Trip Manage</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Design and production of a web and desktop carpooling application that facilitates travel by allowing travelers to offer their services.</p>
+                <p class="project-description">Application web et desktop de covoiturage permettant aux voyageurs
+                  de proposer leurs trajets.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -1020,19 +915,19 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.png" alt="E-commerce Application" loading="lazy">
+                  <img src="./assets/images/project-8.png" alt="Application e-commerce" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">E-commerce Application</h3>
+                <h3 class="project-title">Application e-commerce</h3>
 
                 <p class="project-category">Applications</p>
 
-                <p class="project-description">Application for store gaming</p>
+                <p class="project-description">Application de boutique en ligne de jeux vidéo.</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -1045,9 +940,10 @@
 
                 <h3 class="project-title">SkyTravel</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Développement web</p>
 
-                <p class="project-description">Web application for travel-agency that can reserve hotel and rooms</p>
+                <p class="project-description">Application web pour agence de voyage permettant la réservation
+                  d'hôtels et de chambres.</p>
 
               </a>
             </li>
@@ -1057,6 +953,7 @@
         </section>
 
       </article>
+
 
 
 
@@ -1073,39 +970,67 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d474.8916148226806!2d10.113676990225688!3d36.80228796711046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3247ee2cecd3%3A0x95bbfcd8446f5a7!2sPharmacie!5e0!3m2!1sfr!2stn!4v1664841554961!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <iframe title="Localisation : Paris, Île-de-France, France"
+              src="https://www.google.com/maps?q=Paris,%20%C3%8Ele-de-France,%20France&z=11&output=embed" width="600"
+              height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
-        <section class="contact-form">
+        <section class="contact-quick">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">Travaillons ensemble</h3>
 
-          <form action="#" class="form" data-form>
+          <p class="contact-quick-text">
+            Une opportunité, un projet ou une question ? N'hésitez pas à me contacter.
+          </p>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          <div class="contact-quick-list">
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+            <a href="mailto:Mahdi.Homrani@outlook.com" class="form-btn contact-quick-btn">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>Me contacter par email</span>
+            </a>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <a href="https://wa.me/21658932889?text=Bonjour%20Mahdi%2C%20j%27ai%20vu%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter."
+              target="_blank" rel="noopener" class="form-btn contact-quick-btn">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+              <span>Échanger sur WhatsApp</span>
+            </a>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
+          </div>
 
         </section>
+
 
       </article>
 
     </div>
 
   </main>
+
+
+  <!--
+    - #PROJECT LIGHTBOX
+  -->
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+
+    <div class="lightbox-overlay" data-lightbox-close></div>
+
+    <figure class="lightbox-content" role="dialog" aria-modal="true" aria-label="Aperçu du projet">
+
+      <button class="lightbox-close-btn" data-lightbox-close aria-label="Fermer">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <img src="" alt="" class="lightbox-img" data-lightbox-img>
+
+      <figcaption class="lightbox-caption" data-lightbox-caption></figcaption>
+
+    </figure>
+
+  </div>
 
 
 
