@@ -20,8 +20,7 @@ assets/css/style.css       Styles
 assets/js/script.js        Navigation, filtres des projets, aperçu des images
 assets/js/i18n.js          Traductions anglaises et sélecteur de langue
 assets/images/             Images (projets en WebP)
-CV_Homrani_Mahdi.pdf       CV en français
-CV_Homrani_Mahdi_AN.pdf    CV en anglais
+assets/cv/                 CV en français et en anglais
 ```
 
 ## Lancer en local
