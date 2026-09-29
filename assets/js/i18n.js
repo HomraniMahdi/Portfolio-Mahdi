@@ -8,6 +8,7 @@ const translationsEn = {
   "sidebar.whatsapp": "Chat on WhatsApp",
   "sidebar.location": "Location",
   "sidebar.cv": "Download CV",
+  "sidebar.cv.href": "CV_Homrani_Mahdi_AN.pdf",
   "nav.about": "About",
   "nav.resume": "Resume",
   "nav.portfolio": "Projects",
